@@ -15,7 +15,7 @@
   <img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
   
   
-  <img align="right" alt="Pic" height="150" style="border-radius:50px;" src="https://avatars.githubusercontent.com/u/97716944?v=4">
+  <img align="right" alt="Pic" height="150" style="border-radius:50px;" src="https://giphy.com/gifs/Vu2IRZZOd4DNNy9xHp">
 </div>
   
   ##
