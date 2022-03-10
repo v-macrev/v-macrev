@@ -1,7 +1,7 @@
 ## Hi, I am Victor Cruz, but you can call me Macrev!
 <div align="center">
   <a href="https://github.com/v-macrev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=v-macrev&layout=compact&langs_count=5&theme=dark"/>
+  <img height="180em" width="450em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=v-macrev&layout=compact&langs_count=5&theme=dark"/>
   <img height="180em" width="450em" src="https://github-readme-stats.vercel.app/api?username=v-macrev&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   
 </div>
