@@ -23,7 +23,7 @@
 <div> 
   <a href="https://www.linkedin.com/in/victor-cruz-macrev" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href = "mailto:victorcruzrodrigues2003@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.twitch.tv/vik_macrev" target="_blank"><img src="https://img.shields.io/badge/Github-9146FF?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+  <a href="https://github.com/v-macrev" target="_blank"><img src="https://img.shields.io/badge/Github-9146FF?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
   <a href="https://www.youtube.com/channel/UCjcQOLLmyj9yOH5avyMYgQw" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="https://instagram.com/v_macrev" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
  	<a href="https://twitter.com/Vik_Macrev" target="_blank"><img src="https://img.shields.io/badge/Twitter-7289DA?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a> 
