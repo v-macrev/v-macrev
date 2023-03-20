@@ -1,4 +1,4 @@
-## Hi, I am Victor Cruz, but you can call me Macrev!
+## Hi, I am Victor Rodrigues, but you can call me Macrev!
 <div align="center">
   <a href="https://github.com/v-macrev">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=v-macrev&layout=compact&langs_count=7&theme=gotham"/>
