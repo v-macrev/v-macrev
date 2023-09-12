@@ -2,7 +2,7 @@
 <div align="center" style="display: flex;">
   <a href="https://github.com/v-macrev">
   <img height=200 align="center" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&langs_count=7&theme=gotham&layout=compact"/>
-  <img height=200 align="center" src="https://readmestats.999857.xyz/api?username=v-macrev&count_private=true&show_icons=true&hide_title=true&include_all_commits=true&theme=gotham"/>
+  <img height=200 align="center" src="https://readmestats.999857.xyz/api?username=v-macrev&count_private=true&include_all_commits=true&theme=gotham"/>
   </a>
 </div>
 
