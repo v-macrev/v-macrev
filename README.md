@@ -1,8 +1,9 @@
 ## Hi, I am Victor Rodrigues, but you can call me Macrev!
 <div align="center" style="display: flex;">
   <a href="https://github.com/v-macrev">
-  <img height="180em" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&langs_count=10&theme=gotham&layout=compact"/>
-  <img height="180em" src="https://readmestats.999857.xyz/api?username=v-macrev&count_private=true&show_icons=true&hide_title=true&include_all_commits=true&theme=gotham&card_width=320"/>
+  <img height=200 align="center" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&langs_count=7&theme=gotham&layout=compact"/>
+  <img height=200 align="center" src="https://readmestats.999857.xyz/api?username=v-macrev&count_private=true&show_icons=true&hide_title=true&include_all_commits=true&theme=gotham&card_width=320"/>
+  </a>
 </div>
 
   
