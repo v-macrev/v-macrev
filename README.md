@@ -1,21 +1,13 @@
 ## Hi, I am Victor Rodrigues, but you can call me Macrev!
-<div align="center" style="display: flex; justify-content: center;">
+<p align="center">
+  <a href="https://github.com/v-macrev">
+    <img height="200" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=320&theme=gotham"/>
+  </a>
+  <a href="https://github.com/v-macrev">
+    <img height="200" src="https://readmestats.999857.xyz/api?username=v-macrev&count_private=true&include_all_commits=true&theme=gotham"/>
+  </a>
+</p>
 
-  <!-- First Image -->
-  <div style="width: 50%;">
-    <a href="https://github.com/v-macrev">
-      <img height=200 src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=320&theme=gotham"/>
-    </a>
-  </div>
-
-  <!-- Second Image -->
-  <div style="width: 50%;">
-    <a href="https://github.com/v-macrev">
-      <img height=200 src="https://readmestats.999857.xyz/api?username=v-macrev&count_private=true&include_all_commits=true&theme=gotham"/>
-    </a>
-  </div>
-
-</div>
 
   
 </div>
