@@ -1,6 +1,6 @@
 ## Hi, I am Victor Rodrigues, but you can call me Macrev!
 <div align="center">
-  <div style="display: flex;">
+  <div style="display: flex; flex-direction: row;">
   <a href="https://github.com/v-macrev">
     <img height="200" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=320&theme=gotham"/>
   </a>
