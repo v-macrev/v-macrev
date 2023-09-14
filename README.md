@@ -3,7 +3,7 @@
 <img style="height: auto; width: 55%;" class="img" src="https://readmestats.999857.xyz/api?username=v-macrev&count_private=true&include_all_commits=true&theme=gotham" />
 &nbsp;
 &nbsp;
-<img style="height: auto; width: 40%;" class="img" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=320&theme=gotham" /></div>
+<img style="height: auto; width: 40%;" class="img" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=120&theme=gotham" /></div>
 </div>
   
 </div>
