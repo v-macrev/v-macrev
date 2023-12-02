@@ -1,6 +1,6 @@
 <div class='container'align='center'>
   
-  <img src="https://github.com/aleatoriska/portfolio/blob/main/assets/images/intro-github.png" />  
+  <img src="https://github.com/v-macrev/portfolio/blob/main/assets/images/intro-github.png" />  
   
 ##
 
@@ -23,7 +23,7 @@
   <div> 
     <a href="https://www.linkedin.com/in/victor-macrev" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
     <a href = "mailto:victorcruzrodrigues2003@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-    <br><img height="80" width="auto" src="https://github.com/aleatoriska/portfolio/blob/main/assets/images/macrev.gif" />  
+    <br><img height="80" width="auto" src="https://github.com/v-macrev/portfolio/blob/main/assets/images/macrev.gif" />  
     
   ![Snake animation](https://github.com/v-macrev/v-macrev/blob/output/github-contribution-grid-snake-dark.svg?palette=github-dark)
    
