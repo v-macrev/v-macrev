@@ -1,7 +1,9 @@
 <div class='container'align='center'>
   
-# Hi, I am Victor Rodrigues, but you can call me Macrev!
+  <img src="https://github.com/aleatoriska/portfolio/blob/main/assets/images/intro-github.png" />
   
+##
+
   <img height=180em align=top class="img" src="https://readmestats.999857.xyz/api?username=v-macrev&count_private=true&include_all_commits=true&theme=gotham" /> &nbsp;&nbsp;
   <img height=180em align=top class="img" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=265&theme=gotham" />
   
