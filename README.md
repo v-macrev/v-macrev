@@ -12,7 +12,6 @@
     <img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <!--<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg">
     <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg">-->
-    <img align="right" alt="Pic" height="150" width="150" style="border-radius:50px;" src="https://github.com/aleatoriska/portfolio/blob/main/assets/images/macrev-logo.gif">
   </div>
   
   ##
