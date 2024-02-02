@@ -1,6 +1,6 @@
 <div class='container'align='center'>
   
-  <img src="https://github.com/v-macrev/portfolio/blob/main/assets/images/intro-github.png" />  
+  <img src="https://github.com/v-macrev/v-macrev/blob/main/assets/images/intro-github.png" />  
   
 ##
 
