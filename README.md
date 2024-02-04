@@ -5,7 +5,7 @@
 ##
 
   <img height=175em align=top class="img" src="https://readmestats.999857.xyz/api?username=v-macrev&count_private=true&include_all_commits=true&theme=gotham" /> &nbsp;&nbsp;
-  <img width=390em align=top class="img" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=265&theme=gotham" />
+  <img width=320em align=top class="img" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=265&theme=gotham" />
   
   
   <div style="display: inline_block"><br>
