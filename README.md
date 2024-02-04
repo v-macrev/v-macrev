@@ -9,13 +9,11 @@
   
   
   <div style="display: inline_block"><br>
-    <img align="center" alt="CPlusPlus" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-plain.svg">
-    <img align="center" alt="Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-plain.svg">
-    <img align="center" alt=".NET" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-plain-wordmark.svg">
-    <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-plain.svg">
-    <img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-    <!--<img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg">
-    <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg">-->
+    <img align="center" alt="CPlusPlus" height="30" width="40" src="/assets/images/cplusplus-plain.svg">
+    <img align="center" alt="Csharp" height="30" width="40" src="/assets/images/csharp-plain.svg">
+    <img align="center" alt="Python" height="30" width="40" src="/assets/images/python-plain.svg">
+    <img align="center" alt="Django" height="30" width="40" src="/assets/images/django-plain.svg">
+    <img align="center" alt="Flask" height="30" width="40" src="/assets/images/flask-original.svg">
   </div>
   
   ##
