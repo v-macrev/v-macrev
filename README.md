@@ -5,7 +5,7 @@
 ##
 
   [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=v-macrev&theme=gotham&card_width=420)](https://git.io/streak-stats) &nbsp;&nbsp;
-  <img width=320em align=top class="img" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=265&theme=gotham" />
+  <img width=420em align=top class="img" src="https://readmestats.999857.xyz/api/top-langs/?username=v-macrev&layout=compact&langs_count=8&card_width=265&theme=gotham" />
   
   
   <div style="display: inline_block"><br>
