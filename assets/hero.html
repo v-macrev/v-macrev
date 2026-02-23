@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hero</title>
+</head>
+
+<body>
+  <div id="hero">
+    <div class="hero-card">
+      <div class="hero-inner">
+        <!-- Left: Icon badge -->
+        <div class="badge" aria-hidden="true">
+          <div class="badge-ring"></div>
+          <div class="badge-core">
+            <svg class="badge-icon" viewBox="0 0 64 64" role="img" aria-label="Data engineering icon">
+              <ellipse cx="26" cy="14" rx="14" ry="6" fill="currentColor" opacity="0.95"/>
+              <path d="M12 14v22c0 3.3 6.3 6 14 6s14-2.7 14-6V14" fill="none" stroke="currentColor" stroke-width="4" opacity="0.95"/>
+              <path d="M12 24c0 3.3 6.3 6 14 6s14-2.7 14-6" fill="none" stroke="currentColor" stroke-width="4" opacity="0.95"/>
+              <path d="M12 34c0 3.3 6.3 6 14 6s14-2.7 14-6" fill="none" stroke="currentColor" stroke-width="4" opacity="0.95"/>
+              <rect x="44" y="28" width="6" height="22" rx="2" fill="currentColor" opacity="0.95"/>
+              <rect x="53" y="20" width="6" height="30" rx="2" fill="currentColor" opacity="0.75"/>
+              <path d="M44 18l6-6 9 10" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Right: Text -->
+        <div class="hero-text">
+          <div class="hello">HELLO I AM</div>
+          <div class="name">VICTOR RODRIGUES</div>
+          <div class="role">SENIOR DATA ANALYTICS ENGINEER</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    /* page reset so screenshot is tight */
+    html, body { margin:0; padding:0; background:transparent; }
+    #hero { padding:18px; }
+
+    .hero-card{
+      /* Gotham palette */
+      --bg:#0c1014;
+      --primary:#2aa889;
+      --secondary:#82b3b1;
+      --terciary:#5496a5;
+      --border:#e5e3e2;
+
+      width:100%;
+      max-width:1920px;
+      aspect-ratio:1920 / 882;
+      margin:0 auto;
+
+      border-radius:20px;
+      border:2px solid rgba(229,227,226,.85);
+      background:
+        radial-gradient(1200px 520px at 70% 50%, rgba(42,168,137,.18), transparent 60%),
+        radial-gradient(900px 420px at 25% 50%, rgba(84,150,165,.14), transparent 60%),
+        repeating-linear-gradient(90deg, rgba(229,227,226,.05) 0 1px, transparent 1px 38px),
+        linear-gradient(180deg, rgba(229,227,226,.06), rgba(229,227,226,0) 40%),
+        var(--bg);
+
+      box-shadow: 0 30px 80px rgba(0,0,0,.55);
+      overflow:hidden;
+      position:relative;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+      display:grid;
+      place-items:center;
+    }
+
+    .hero-card::before{
+      content:"";
+      position:absolute; inset:-40px;
+      background:
+        radial-gradient(circle at 10% 20%, rgba(229,227,226,.10) 1px, transparent 2px),
+        radial-gradient(circle at 35% 35%, rgba(229,227,226,.08) 1px, transparent 2px),
+        radial-gradient(circle at 70% 25%, rgba(229,227,226,.08) 1px, transparent 2px),
+        radial-gradient(circle at 85% 55%, rgba(229,227,226,.07) 1px, transparent 2px);
+      opacity:.16;
+      filter: blur(.2px);
+      pointer-events:none;
+    }
+
+    /* Main content panel */
+    .hero-inner{
+      position:relative;
+      width:min(1320px, 89%);
+      height:76%;
+      padding: clamp(18px, 2.2vw, 34px);
+      border-radius:16px;
+
+      display:flex;
+      align-items:center;
+      justify-content:flex-start; /* ✅ keeps content close */
+      gap: clamp(22px, 3.2vw, 52px); /* ✅ controlled distance */
+
+      background: rgba(12,16,20,.55);
+      border: 1px solid rgba(229,227,226,.12);
+    }
+
+    /* Badge scales with panel height (bigger + consistent) */
+    .badge{
+      flex: 0 0 auto;
+      height: 82%;
+      aspect-ratio: 1 / 1;
+      max-height: 340px; /* bigger */
+      min-height: 220px; /* never tiny */
+
+      position:relative;
+      display:grid;
+      place-items:center;
+    }
+
+    .badge-ring{
+      position:absolute; inset:0;
+      border-radius:999px;
+      background:
+        radial-gradient(circle at 50% 50%, rgba(0,0,0,0) 52%, rgba(42,168,137,.92) 53% 58%, rgba(0,0,0,0) 59%),
+        radial-gradient(circle at 50% 50%, rgba(0,0,0,0) 62%, rgba(130,179,177,.70) 63% 66%, rgba(0,0,0,0) 67%);
+      filter: drop-shadow(0 0 16px rgba(42,168,137,.28));
+    }
+
+    .badge-core{
+      width: 76%;
+      height: 76%;
+      border-radius:999px;
+      background: rgba(7,11,15,.72);
+      box-shadow:
+        inset 0 0 0 3px rgba(42,168,137,.28),
+        0 10px 30px rgba(0,0,0,.45);
+      display:grid;
+      place-items:center;
+      color: rgba(130,179,177,.95);
+    }
+
+    .badge-icon{
+      width: 56%;
+      height: 56%;
+      color: rgba(130,179,177,.95);
+      opacity:.95;
+    }
+
+    .hero-text{
+      max-width: 900px;
+      line-height: 1.02;
+    }
+
+    .hello{
+      letter-spacing: .28em;
+      font-size: 22px;
+      color: rgba(130,179,177,.85);
+      margin-bottom: 14px;
+    }
+
+    .name{
+      font-size: 76px;
+      font-weight: 900;
+      letter-spacing: .05em;
+      color: var(--primary);
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .role{
+      font-size: 32px;
+      letter-spacing: .16em;
+      color: rgba(84,150,165,.95);
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 900px){
+      #hero{ padding:12px; }
+
+      .hero-card{
+        aspect-ratio: auto;
+      }
+
+      .hero-inner{
+        height:auto;
+        flex-direction:column;
+        text-align:center;
+        justify-content:center;
+        gap:18px;
+        padding:22px 18px;
+      }
+
+      .badge{
+        height: 210px;
+        min-height: 210px;
+      }
+
+      .name{ white-space: normal; }
+    }
+  </style>
+</body>
+</html>
