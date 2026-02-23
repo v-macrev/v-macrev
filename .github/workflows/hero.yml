@@ -103,7 +103,14 @@ jobs:
         run: |
           set -euxo pipefail
 
-          # Stage the generated file first (handles new/untracked files)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Always sync with remote main first to avoid non-fast-forward pushes
+          git fetch origin main
+          git rebase origin/main
+
+          # Stage the generated file
           git add assets/images/hero.png
 
           # If nothing is staged, do nothing
@@ -112,8 +119,7 @@ jobs:
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git commit -m "chore(readme): render hero image [skip ci]"
-          git push
+
+          # Push after rebasing
+          git push origin HEAD:main
