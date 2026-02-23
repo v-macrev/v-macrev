@@ -1,23 +1,23 @@
 name: Hero
 
 on:
-  # run automatically every 24 hours
+  # Run once per day at 00:01 UTC
   schedule:
-    - cron: "1 */1 * * *" 
-  
-  # allows to manually run the job at any time
+    - cron: "1 0 * * *"
+
+  # Manual trigger
   workflow_dispatch:
-  
-  # run on every push on the main branch
+
+  # Run on push to main
   push:
     branches:
-    - main
+      - main
 
 permissions:
   contents: write
 
 concurrency:
-  group: render-hero-test
+  group: render-hero
   cancel-in-progress: true
 
 jobs:
@@ -25,10 +25,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      # 🔒 Ensure we are exactly on latest remote main
+      - name: Sync with remote main
+        run: |
+          set -euxo pipefail
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -42,7 +49,7 @@ jobs:
           npm i -D playwright
           npx playwright install --with-deps chromium
 
-      - name: Render assets/hero.html -> assets/images/hero.png (transparent)
+      - name: Render assets/hero.html → assets/images/hero.png (transparent)
         run: |
           set -euxo pipefail
           mkdir -p assets/images
@@ -66,14 +73,19 @@ jobs:
 
             await page.goto('file://' + heroFile, { waitUntil: 'networkidle' });
 
-            // Ensure the "page" itself is transparent (prevents white flattening)
+            // Force transparent background
             await page.addStyleTag({
               content: `
-                html, body { background: transparent !important; margin: 0 !important; padding: 0 !important; }
+                html, body {
+                  background: transparent !important;
+                  margin: 0 !important;
+                  padding: 0 !important;
+                }
               `
             });
 
             const hero = await page.$('#hero');
+
             if (hero) {
               await hero.screenshot({
                 path: 'assets/images/hero.png',
@@ -103,23 +115,15 @@ jobs:
         run: |
           set -euxo pipefail
 
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Always sync with remote main first to avoid non-fast-forward pushes
-          git fetch origin main
-          git rebase origin/main
-
-          # Stage the generated file
           git add assets/images/hero.png
 
-          # If nothing is staged, do nothing
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "chore(readme): render hero image [skip ci]"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Push after rebasing
+          git commit -m "chore(hero): render hero image [skip ci]"
           git push origin HEAD:main
