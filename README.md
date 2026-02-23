@@ -13,15 +13,15 @@
 <br>
   <!-- TECH STACK -->
   <p>
-  <img alt="1" height="38" src="assets/images/1.svg">&nbsp;&nbsp;&nbsp;
-  <img alt="2" height="38" src="assets/images/2.svg">&nbsp;&nbsp;&nbsp;
-  <img alt="3" height="38" src="assets/images/3.svg">&nbsp;&nbsp;&nbsp;
-  <img alt="4" height="38" src="assets/images/4.svg">&nbsp;&nbsp;&nbsp;
-  <img alt="5" height="38" src="assets/images/5.svg">&nbsp;&nbsp;&nbsp;
-  <img alt="6" height="38" src="assets/images/6.svg">&nbsp;&nbsp;&nbsp;
-  <img alt="7" height="38" src="assets/images/7.svg">&nbsp;&nbsp;&nbsp;
-  <img alt="8" height="38" src="assets/images/8.svg">&nbsp;&nbsp;&nbsp;
-  <img alt="9" height="38" src="assets/images/9.svg">
+  <img alt="Python" height="38" src="assets/images/1.svg">&nbsp;&nbsp;&nbsp;
+  <img alt="PySpark" height="38" src="assets/images/2.svg">&nbsp;&nbsp;&nbsp;
+  <img alt="Pandas" height="38" src="assets/images/3.svg">&nbsp;&nbsp;&nbsp;
+  <img alt="NumPy" height="38" src="assets/images/4.svg">&nbsp;&nbsp;&nbsp;
+  <img alt="Databricks" height="38" src="assets/images/5.svg">&nbsp;&nbsp;&nbsp;
+  <img alt="Azure" height="38" src="assets/images/6.svg">&nbsp;&nbsp;&nbsp;
+  <img alt="AWS" height="38" src="assets/images/7.svg">&nbsp;&nbsp;&nbsp;
+  <img alt="SQL" height="38" src="assets/images/8.svg">&nbsp;&nbsp;&nbsp;
+  <img alt="Power BI" height="38" src="assets/images/9.svg">
 </p>
 
   <br>
