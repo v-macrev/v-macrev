@@ -6,7 +6,7 @@
 
   <!-- METRICS (50% / 50%) -->
   <p align="center">
-    <img src="https://streak-stats.demolab.com?user=v-macrev&theme=gotham&border_radius=10&card_width=600&card_height=280)" style="width:49%; aspect-ratio:15/7;"/>
+    <img src="https://streak-stats.demolab.com?user=v-macrev&theme=gotham&border_radius=10&card_width=300&card_height=140)" style="width:49%; aspect-ratio:15/7;"/>
     <img src="./assets/images/top-langs.svg" style="width:49%; aspect-ratio:15/7;"/>
   </p>
 
