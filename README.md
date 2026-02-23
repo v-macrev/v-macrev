@@ -36,6 +36,6 @@
     </a>
   </p>
 
-  <img src="https://github.com/v-macrev/test/blob/output/github-contribution-grid-snake-dark.svg?palette=github-dark" width="100%"/>
+  <img src="https://github.com/v-macrev/v-macrev/blob/output/github-contribution-grid-snake-dark.svg?palette=github-dark" width="100%"/>
 
 </div>
