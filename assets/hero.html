@@ -39,7 +39,7 @@
   <style>
     /* page reset so screenshot is tight */
     html, body { margin:0; padding:0; background:transparent; }
-    #hero { padding:18px; }
+    #hero { padding:0px; }
 
     .hero-card{
       /* Gotham palette */
@@ -63,7 +63,6 @@
         linear-gradient(180deg, rgba(229,227,226,.06), rgba(229,227,226,0) 40%),
         var(--bg);
 
-      box-shadow: 0 30px 80px rgba(0,0,0,.55);
       overflow:hidden;
       position:relative;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -129,9 +128,7 @@
       height: 76%;
       border-radius:999px;
       background: rgba(7,11,15,.72);
-      box-shadow:
-        inset 0 0 0 3px rgba(42,168,137,.28),
-        0 10px 30px rgba(0,0,0,.45);
+      box-shadow: inset 0 0 0 3px rgba(42,168,137,.28);
       display:grid;
       place-items:center;
       color: rgba(130,179,177,.95);
@@ -173,7 +170,7 @@
     }
 
     @media (max-width: 900px){
-      #hero{ padding:12px; }
+      #hero{ padding:0px; }
 
       .hero-card{
         aspect-ratio: auto;
