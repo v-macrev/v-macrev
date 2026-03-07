@@ -6,8 +6,8 @@
 
   <!-- METRICS (50% / 50%) -->
   <p align="center">
-    <img src="https://streak-stats.demolab.com?user=v-macrev&theme=gotham&border_radius=10&card_width=429&card_height=200)" style="width:49%; aspect-ratio:15/7;"/>
-    <img src="./assets/images/top-langs.svg" style="width:49%; aspect-ratio:15/7;"/>
+    <img src="https://streak-stats.demolab.com?user=v-macrev&theme=gotham&border_radius=5&card_width=505&card_height=200)" style="width:57.5%; aspect-ratio:16/9;"/>
+    <img src="./assets/images/top-langs.svg" style="width:41.5%; aspect-ratio:15/1;"/>
   </p>
 
 <br>
