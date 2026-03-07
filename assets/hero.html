@@ -39,7 +39,7 @@
   <style>
     /* page reset so screenshot is tight */
     html, body { margin:0; padding:0; background:transparent; }
-    #hero { padding:0px; }
+    #hero { padding:0 4px 0 0px; }
 
     .hero-card{
       /* Gotham palette */
@@ -86,16 +86,16 @@
 
     /* Main content panel */
     .hero-inner{
-      position:relative;
-      width:min(1320px, 89%);
-      height:76%;
+      position: relative;
+      width: min(1320px, 92%);
+      height: 76%;
       padding: clamp(18px, 2.2vw, 34px);
-      border-radius:16px;
+      border-radius: 16px;
 
-      display:flex;
-      align-items:center;
-      justify-content:flex-start; /* ✅ keeps content close */
-      gap: clamp(22px, 3.2vw, 52px); /* ✅ controlled distance */
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: clamp(18px, 2.4vw, 40px);
 
       background: rgba(12,16,20,.55);
       border: 1px solid rgba(229,227,226,.12);
@@ -104,14 +104,14 @@
     /* Badge scales with panel height (bigger + consistent) */
     .badge{
       flex: 0 0 auto;
-      height: 82%;
+      height: 78%;
       aspect-ratio: 1 / 1;
-      max-height: 340px; /* bigger */
-      min-height: 220px; /* never tiny */
+      max-height: 320px;
+      min-height: 210px;
 
-      position:relative;
-      display:grid;
-      place-items:center;
+      position: relative;
+      display: grid;
+      place-items: center;
     }
 
     .badge-ring{
@@ -142,7 +142,9 @@
     }
 
     .hero-text{
-      max-width: 900px;
+      flex: 1 1 auto;
+      min-width: 0;
+      max-width: 100%;
       line-height: 1.02;
     }
 
@@ -154,17 +156,17 @@
     }
 
     .name{
-      font-size: 76px;
+      font-size: clamp(56px, 5.4vw, 76px);
       font-weight: 900;
-      letter-spacing: .05em;
+      letter-spacing: .035em;
       color: var(--primary);
       text-transform: uppercase;
       margin-bottom: 18px;
     }
 
     .role{
-      font-size: 32px;
-      letter-spacing: .16em;
+      font-size: clamp(24px, 2.2vw, 32px);
+      letter-spacing: .12em;
       color: rgba(84,150,165,.95);
       text-transform: uppercase;
     }
